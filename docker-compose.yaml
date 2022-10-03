@@ -2,7 +2,8 @@ version: "3"
 
 services: 
   valheim: 
-    image: ghcr.io/Rishats/valheim-server
+    #image: ghcr.io/Rishats/valheim-server
+    image: skeletondocker/valheim-server
     cap_add:
       - sys_nice
     volumes: 
